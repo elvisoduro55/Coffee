@@ -1,0 +1,617 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*navigation-styles*/
+
+#header-container {
+    background: linear-gradient(rgba(69, 59, 59), rgb(89, 38, 11));
+    padding: 10px;
+    margin-bottom: 5%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 9%;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    font-size: 40px;
+    padding: 0 14px;
+    font-weight: 700;
+    transition: color 0.5s;
+    font-family: 'Shalimar', cursive;
+}
+
+nav a:hover {
+    color: rgba(145, 93, 25, 0.63);
+}
+
+span.shop-tele {
+    font-size: 14px;
+    color: rgba(253, 253, 253, 0.637);
+     
+}
+
+/*navigation-styles end*/
+
+
+/*coffee main section*/
+
+.coffe-frontpage {
+    padding: 3% 8%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col-left{
+    
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.col-right{
+    align-items: center;
+    border: 6px solid rgb(36, 30, 30);
+    
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: black;
+    padding: 15px 0;
+}
+
+.sub-coffee-h {
+    padding-bottom: 30px ;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.btn {
+    padding: 13px 20px;
+    font-weight: 500;
+    font-size: 20px ;
+    margin: 15px 6px;
+    color: aliceblue;
+    border-radius: 6px;
+    border: 1px solid rgba(69, 59, 59);
+    background-color: inherit;
+    transition: 0.5s ease;
+
+}
+
+.btn:hover {
+    background-color: rgba(69, 59, 59);
+    cursor: pointer;
+}
+/*coffee main section end*/
+
+
+/*favorite-coffee-section start*/
+
+#favorite-coffee-container {
+    margin-bottom: 5%;
+    padding: 2%;
+}
+
+.col-2 img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.coffee-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 7%;
+    flex-wrap: wrap;
+}
+
+p.Enjoy-coffee-title {
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Varela Round', sans-serif;
+}
+
+ span.plus-sign {
+    color: brown;
+ }
+
+ h2.coffe-place-title {
+    margin-bottom: 10%;
+    font-size: 50px;
+ }
+
+ #Enjoy-coffee-place {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+.choose-fav-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+#coffee-fav-slogan {
+    margin-bottom: 2%;
+    font-weight: 600;
+    font-size: 18px;
+    color: brown;
+    letter-spacing: 3px;
+}
+
+h2.coffee-fav-title {
+    font-size: 50px;
+    margin-bottom: 5%;
+}
+
+p.coffee-fav-info {
+    margin-bottom: 8%;
+    font-weight: 550;
+    font-size: 22px;
+    color: brown;
+}
+
+span.capp-color {
+    color: brown;
+}
+
+h3.fav-coffee-title {
+    display: inline;
+    font-size: 25px;
+    letter-spacing: 5px;
+    
+    
+}
+
+h3.fav-coffee-title a {
+    color: rgb(5, 5, 5);
+    transition: 0.7 ease;
+    text-decoration: none;
+}
+
+div.fav-coffee-menu-link {
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+
+div.fav-coffee-menu-link a {
+    color: black;
+}
+
+div.fav-coffee-menu-link a:hover {
+    opacity: 0.7;
+}
+
+/*favorite-coffee-section end*/
+
+
+/*fav dishes to add start*/
+
+#dishes-container {
+    background: linear-gradient(rgba(69, 59, 59), rgb(89, 38, 11));
+    padding: 2%;
+
+}
+
+.dish-fav-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5%;
+    flex-wrap: wrap;
+    
+}
+
+#dish-fav-slogan {
+    margin-bottom: 2%;
+    font-weight: 600;
+    color: brown;
+    letter-spacing: 3px;
+}
+
+h2.dish-fav-title {
+    font-size: 50px;
+    margin-bottom: 5%;
+    color: white;
+}
+
+p.dish-fav-info {
+    margin-bottom: 7%;
+    font-weight: 550;
+    font-size: 22px;
+    color: brown;
+}
+
+
+
+h3.fav-dish-title {
+    display: inline;
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: white;
+    
+}
+
+div.fav-dish-link {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+
+h3.fav-dish-title a {
+    color: rgb(255, 255, 255);
+    transition: 0.7 ease;
+    text-decoration: none;
+    
+}
+
+h3 a:hover {
+    color: brown;
+}
+
+.fav-dish-link a {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+.fav-dish-link a:hover {
+    color: brown;
+    
+}
+
+/*fav dishes to add end*/
+
+
+/*pics of facility start*/
+
+#our-facility-container {
+    
+    padding: 2%;
+    margin-bottom: 4%;
+}
+
+div.facility-info {
+    text-align: center;   
+}
+
+
+.facility-title {
+    margin-bottom: 1%;
+    font-weight: 600;
+    font-size: 30px;
+    color: brown;
+    letter-spacing: 3px;
+}
+
+
+.facility-subtitle {
+    font-size: 55px;
+    margin-bottom: 2%;
+}
+
+
+p.facility-subinfo {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 2%;
+
+}
+
+div.coffee-pics-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 3%;
+    
+}
+
+
+.col-2a img {
+    padding: 5px 10px;
+   
+}
+
+.col-2a img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+
+}
+
+/*pics of facility end*/
+
+
+/*partners of the coffee shop start*/
+
+#the-beanry-color {
+    color: brown;
+}
+
+.coffee-partners-title {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Shalimar', cursive;
+    letter-spacing: 2px;
+    font-weight: 650;
+}
+
+.partners-row {
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*partners of the coffee shop end*/
+
+
+/*Reviews from costomers start*/
+
+#review-container{
+    padding-top: 4%;
+    padding-bottom: 2%;
+    
+   
+}
+
+div.review-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 5%;
+    padding: 2%;
+   
+}
+
+
+span.review-title {
+    color: brown;
+    font-style: italic;
+    font-weight: 800;
+    
+}
+
+h2.review-subtitle {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+#review-info {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+div.before-next {
+    
+    display: inline;
+    
+}
+
+div a.before-next-link {
+    color: black;
+    font-size: 20px;
+    transition: 0.5s ease;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+ div a.before-next-link:hover {
+    color: brown;
+}
+
+.col-review{
+    max-width: 200px;
+    color: white;
+    background-color: rgba(5, 4, 4, 0.911);
+    padding: 10%;
+    font-size: 20px;
+    transition: 0.5s ease;
+    margin-top: 5%;
+    
+}
+
+.col-2b:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.customer-name {
+    margin: 5% 0;
+    font-size: 10px;
+}
+
+i.fa-star{
+    color: rgba(243, 12, 4, 0.733);
+   
+}
+
+/*Reviews from costomers end*/
+
+
+/*location style start*/
+h3.location-title {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.btn1 {
+    padding: 13px 20px;
+    font-weight: 500;
+    font-size: 20px ;
+    margin: 0 6px;
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+    border: 1px solid rgba(69, 59, 59);
+    background-color: inherit;
+    transition: 0.5s ease;
+    
+}
+
+.btn1:hover {
+    background-color: rgb(20, 20, 20);
+
+}
+
+.location-info {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 2%;
+
+}
+/*location style start*/
+
+
+/*footer start*/
+footer {
+    background: linear-gradient(rgba(69, 59, 59), rgb(89, 38, 11));
+    padding: 3% 2%;
+}
+
+#footer-container {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+p.coffe-shop-description {
+    margin-top: 6%;
+     margin-bottom: 10%;
+     color: rgb(14, 12, 12);
+     font-size: 20px;
+     font-weight: 600;
+}
+
+p.coffee-shop-location {
+    margin-bottom: 2%;
+    font-weight: 700;
+}
+
+
+ .footer-subtitles {
+    list-style-type: none;
+    font-weight: 600;
+    
+    
+}
+
+ ul.footer-subtitles a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+    
+}
+
+ul.footer-subtitles a:hover {
+    color: rgb(179, 27, 27);
+}
+
+.footer-title {
+    margin-bottom: 10%;
+    font-size: 28px;
+    color: black;
+    font-weight: 700;
+}
+
+.footer-subtitles li {
+    padding: 5px 0;
+}
+
+hr{
+    margin: 4% 6%;
+    
+}
+
+#footer-reserve {
+text-align: center;
+font-weight: 500;
+}
+
+/*footer end*/
+
+.menu-icon {  
+      color: white;    cursor: pointer;    display: none;}
+
+
+/*media queries*/
+
+@media (max-width: 900px) {
+   
+    body {
+        text-align: center;
+        font-size: small;
+    }
+  
+    .col-2a img {
+        max-width: 100%;
+    }
+
+    .col-2a {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+    }
+
+    #review-container{ 
+        margin-bottom: 9%;
+    }
+
+    .shop-tele {
+        display: none;
+    }
+
+}
