@@ -80,7 +80,11 @@ span.shop-tele {
 .col-right{
     align-items: center;
     border: 6px solid rgb(36, 30, 30);
-    
+}
+
+.col-right img {
+    max-width: 500px;
+
 }
 
 h1 {
@@ -588,22 +592,22 @@ font-weight: 500;
 
 /*media queries*/
 
-@media (max-width: 900px) {
+@media (max-width: 480px) {
    
     body {
         text-align: center;
         font-size: small;
     }
-  
-    .col-2a img {
-        max-width: 100%;
-    }
 
-    .col-2a {
+    .col-2a, .col-right{
         display: flex;
         align-items: center;
         justify-items: center;
         flex-direction: column;
+    }
+  
+    .col-2a,  .col-right img {
+        max-width: 100%;
     }
 
     #review-container{ 
