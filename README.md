@@ -14,7 +14,7 @@ Logo and Favicon: Logo.com
 
 Pics : Unsplash
 
-inspirtaion: UI from Dribble
+Inspirtaion: UI from Dribble
 
 
-website live https://thebeanrycoffee.netlify.app/
+Website live https://thebeanrycoffee.netlify.app/
