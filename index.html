@@ -21,7 +21,7 @@
     </div>
         
     <nav>
-        <ul>
+        <ul class="menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="#">Menu</a></li>
             <li><a href="#">Facility</a></li>
@@ -30,9 +30,14 @@
     </nav>
     
     <span class="shop-tele"><i class="fa-solid fa-phone" id="phone-icon">
-        (+00) 0012-3456-8000)</i></span>
-        
-  
+        (+00) 0012-3456-8000)</i>
+       
+    </span>
+    
+    <div class="hamburger">
+    <i class="fa-solid fa-bars fa-4x"></i>
+</div>
+
     </div>
 
     <!--Navigation-links end-->
@@ -312,7 +317,7 @@
             
             <p class="coffe-shop-description">
                 The Beanry is a cafe that serve many<br>
-                variant of coffee and other dishes in a<br>
+                variant of coffee and other dishes with<br>
                 very comfortable place.
             </p>
 
@@ -377,6 +382,25 @@
 
 </footer>
 
+
+<!--javascript for toggle start-->
+<script>
+
+const openn = document.querySelector(".hamburger");
+      const menu = document.querySelector(".menu");
+      openn.addEventListener("click", () => {
+        menu.style.display === "none"
+          ? (menu.style.display = "block")(
+              openn.setAttribute( ".hamburger")
+            )
+          : (menu.style.display = "none")(
+            openn.setAttribute( src="https://kit.fontawesome.com/7e91622aa6.js" , ".fa-close")
+            );
+      });
+
+
+</script>
+<!--javascript for toggle end-->
 
 
 
