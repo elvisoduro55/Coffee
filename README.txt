@@ -13,5 +13,3 @@ Logo and Favicon: Logo.com
 Pics : Unsplash
 
 inspirtaion: UI from Dribble
-
-!The navbar is not RESPONSIVE
