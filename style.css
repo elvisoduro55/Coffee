@@ -598,6 +598,7 @@ font-weight: 500;
     body {
         text-align: center;
         font-size: small;
+       max-width: 100%;
     }
 
     .col-2a, .col-right{
